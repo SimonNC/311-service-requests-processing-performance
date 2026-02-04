@@ -1,0 +1,17 @@
+# Data (do not commit raw files)
+data/raw/*
+!data/raw/.gitkeep
+
+# Excel temp files
+~$*.xlsx
+*.tmp
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
